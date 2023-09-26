@@ -1,0 +1,47 @@
+.team-Member{
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/512px-Pok%C3%A9_Ball_icon.svg.png?20161023215848');
+
+    
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.deleteBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.603);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    border: none;
+    opacity: 0;
+
+}
+
+.team-Member:hover .deleteBtn{
+    opacity: 1;
+}
+
+.team-Member img{
+    max-width: 50px;
+}
+ 
+@media (max-width : 660px) {
+    .team-Member img{
+        max-width: 40px;
+    }
+}
+
+

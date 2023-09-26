@@ -1,0 +1,87 @@
+.PokemonCard{
+    background-color: #060c1f;
+    width: 100%;
+    max-width: 250px;
+    height: 350px;
+    padding: 20px 20px 5px;
+    color: #b8b7b7;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.cardContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.id{
+    font-size: clamp(5px,2rem,1.3rem);
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.pokeballBtn{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.imgContainer{
+    width: 100%;
+    height: 200px;
+    background-color: #c4c4c433;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemonImg{
+    width: 200px;
+    height: 200px;
+}
+
+.PokemonTypes{
+    display: flex;
+   
+
+    width: 100%;
+    max-width:180px ;
+    border-radius: 10px;
+    padding: 2px 0;
+    font-size: 1rem;
+    gap: 2px;
+    
+}
+
+
+.pokemonInfos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemonInfos > img {
+    width: 55px;
+  
+}

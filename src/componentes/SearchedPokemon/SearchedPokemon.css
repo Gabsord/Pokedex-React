@@ -1,0 +1,273 @@
+.sectionContainer{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    
+}
+
+
+.searchedPokemonCard{
+    display: flex;
+    justify-content: space-between;
+    background-color: #060c1f;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: #ffffffc7;
+    font-size: .9rem;
+    border-radius: 20px;
+    padding: 0 20px 10px;
+    position: relative;
+}
+
+
+.section1{
+    width: 100%;
+    max-width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 20px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+
+.section1 h3{
+    color: #0e3cbb;
+}
+
+
+.searchedPkmStats{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;   
+    
+}
+
+.searchedPkmAbilities{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.searchedPkmMoves{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  gap: 10px;
+  
+}
+
+.Moves{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+    
+}
+
+.Moves p {
+    max-width: 70%;
+    background-color: #0000003b;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+.Moves::-webkit-scrollbar{
+    display: none;
+}
+
+.section2{
+    width: 100%;
+    max-width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-transform: capitalize;
+    
+}
+
+.section2 h1{
+    font-size: 1.5rem;
+}
+
+.searchedPkmImgContainer{
+    background-color:#c4c4c433;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.searchedPkmImg{
+    width: 100%;
+    max-width: 300px;
+    max-height: 100%;
+}
+
+.searchedPkmTypes{
+    text-align: center;
+}
+
+.section3{
+    width: 100%;
+    max-width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+
+.searchedPkmGifs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+.pokeball-btn-container{
+    width: 150px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.pokeball-btn{
+    font-size: 6rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+@media (max-width: 660px){
+
+    .searchedPokemonCard {
+        width: 100%;
+        font-size: .8rem;
+        height: 100%;
+    }
+
+    .section1{
+        justify-content: center;
+       
+    }
+    
+    .section2 h1 {
+        font-size: 1rem;
+    }
+
+
+    .section2{
+        justify-content:center;
+        gap: 20px;
+           
+    }
+
+    .searchedPkmImgContainer{
+        width:  200px;
+        height: 200px;
+        border-radius: 200px;
+        margin-bottom: 100px;
+
+    }
+
+    .searchedPkmTypes{
+        font-size: 1rem;
+    }
+
+    
+}
+
+@media (max-width:550px) {
+
+    .searchedPokemonCard {
+        width: 100%;
+        font-size: .6rem;
+        height: 100%;
+        color: #ffffffc7;
+    }
+
+    .section1{
+        justify-content: flex-start;
+        
+    }
+
+    .section2{
+        justify-content:flex-start;
+        align-items: center;
+        text-align: center;
+        font-size: .5rem;
+           
+    }
+
+    .section2 h1 {
+        font-size: 1rem;
+    }
+
+    .searchedPkmImgContainer{
+        width:  100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-top: 100px;
+
+    }
+
+    .searchedPkmTypes{
+        font-size: .7rem;
+        margin-bottom: 100px;
+    }
+
+    .section3{
+        justify-content:flex-start;
+        padding-top: 0;
+      
+
+    }
+
+    .searchedPkmGifs{
+        margin-top: 70px;
+       }
+    
+
+  
+    
+}

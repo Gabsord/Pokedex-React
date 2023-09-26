@@ -1,0 +1,11 @@
+.teamContainer{
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;   
+    height: 60px;
+    
+    
+}
+
+
